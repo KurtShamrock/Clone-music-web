@@ -1,0 +1,49 @@
+Project Scope:
+-Actor: Admin, User, Visitor
+-Use Case: 
+    +Login
+    +Recovery password
+    +Register
+    +View movie detail
+    +Booking ticket
+    +Cancel ticket
+    +Payment
+    +CRUD movie,showtime
+    +View user infomation(Admin only)
+    +View statistic
+    +View history
+
+Layout:
+    -FE: 
+        +Homepage : Logo, Cinema name, Movie catalog, button Login and Sign in, banner trending movie, ticket info, sale info, Contact info, admin button(admin only), top favourite, latest movies.
+
+        +Subpage about movie: display introduction, some imagine, Booking button.
+
+        +Login page
+
+        +Signin page
+
+        +Booking page
+
+        +Payment page
+
+        +Admin page
+
+    -BE: 
+        //Database
+        +Design DB: using MongoDB
+
+        //Server
+        +Create authorization
+        +Create models
+        +Create routes
+        +Create QR generator
+        +Create mailer
+
+Knowledge:
+    + FrontEnd: JavaScript(ReactJS), HTML, CSS 
+    + BackEnd: JavaScript(ReactJS), NodeJS(Express), MongoDB
+
+
+
+
