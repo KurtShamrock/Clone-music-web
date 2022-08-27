@@ -23,7 +23,7 @@ function Menu({ title, menuObject }) {
           menuObject.map((menu) => (
             <li key={menu.id}>
               {" "}
-              <a href="#">
+              <a href="/#">
                 <i>{menu.icon}</i>
                 <span>{menu.name}</span>
               </a>

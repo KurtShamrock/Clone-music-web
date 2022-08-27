@@ -10,7 +10,7 @@ function AudioList() {
   const [img, setImg] = useState(Songs[0].imgSrc);
   const changeFavourite = (id) => {
     Songs.forEach((song) => {
-      if (song.id == id) {
+      if (song.id === id) {
         song.favourite = !song.favourite;
       }
     });
