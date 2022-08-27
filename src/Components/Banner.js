@@ -34,8 +34,8 @@ function Banner() {
             </p>
           </div>
           <div className="right">
-            <a href="#">Play</a>
-            <a href="#">
+            <a href="/#">Play</a>
+            <a href="/#">
               <i>
                 <FaCheck />
               </i>
